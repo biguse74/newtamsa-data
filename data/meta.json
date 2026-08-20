@@ -1,0 +1,41 @@
+{
+  "built": "2026-08-20T10:45:00+09:00",
+  "source": {
+    "title": "시사타파TV 민주당 전당대회 생중계 실시간 채팅",
+    "video": "https://www.youtube.com/watch?v=UA97sjTAd6Q",
+    "broadcast_start_kst": "2026-08-17T13:00:24+09:00",
+    "broadcast_end_kst": "2026-08-17T19:31:34+09:00",
+    "duration_text": "6시간 11분 16초",
+    "file": "chat_UA97sjTAd6Q.live_chat.json",
+    "sha256": "9449534dc1e8096db3aa6f49bcdc998809dabd94f00816adc6e56c3e6c48c1e9",
+    "bytes": 77304491
+  },
+  "counts": {
+    "total": 45272,
+    "placeholder": 3720,
+    "authors": 3443,
+    "ment": 1626,
+    "ment_authors": 657,
+    "N2": 506,
+    "N1": 999,
+    "P": 29,
+    "Z": 92,
+    "neg": 1505,
+    "neg_pct": 92.6
+  },
+  "audit": {
+    "sample": 200,
+    "confirmed": 196,
+    "false_positive": 1,
+    "undecided": 3,
+    "precision_pct": 98.0,
+    "candidates": 1901,
+    "sampling_rule": "sha256(channel_id + time + message) 오름차순 상위 200건"
+  },
+  "record_format": [
+    "영상경과초",
+    "마스킹된작성자",
+    "본문",
+    "감정코드(N2|N1|P|Z|빈값)"
+  ]
+}
